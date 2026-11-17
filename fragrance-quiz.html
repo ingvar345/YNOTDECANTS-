@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b0b">
+  <meta name="description" content="Find your next fragrance with the Ynotdecants quiz. Tell us the notes and moments you love, and discover perfume decants selected from our catalogue.">
+  <title>Take the Fragrance Quiz | Find Your Scent | Ynotdecants</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/ynotdecants-logo.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="fragrance-quiz.css">
+  <script src="catalog.js" defer></script>
+  <script src="script.js" defer></script>
+  <script src="fragrance-quiz.js" defer></script>
+</head>
+<body class="quiz-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="announcement">Your favourite fragrances. A little at a time.</div>
+  <header class="header">
+    <div class="header-inner">
+      <button class="icon-button menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="navigation"><svg><use href="#i-menu"/></svg></button>
+      <a class="wordmark brand-logo" href="index.html" aria-label="Ynotdecants home"><img src="assets/ynotdecants-logo.png" alt="Ynotdecants" width="1124" height="857"></a>
+      <nav id="navigation" aria-label="Main navigation">
+        <a href="https://links.jumpstartbuilds.com/preview/3DMA1kI9IipYmPK9Fj20?notrack=true">Shop all</a><a href="men.html">Men</a><a href="women.html">Women</a><a href="unisex.html">Unisex</a><a href="fragrance-quiz.html" aria-current="page">Fragrance quiz</a><a href="contact.html">Contact</a>
+      </nav>
+      <div class="header-actions"><button class="icon-button" data-open-search aria-label="Search fragrances"><svg><use href="#i-search"/></svg></button><button class="icon-button bag-button" data-open-cart aria-label="Open shopping bag"><svg><use href="#i-bag"/></svg><span id="cart-count">0</span></button></div>
+    </div>
+  </header>
+  <main id="main" class="fragrance-quiz-main">
+    <section class="fragrance-quiz-shell" aria-label="Find your fragrance">
+      <div class="scent-quiz-top"><a href="index.html" class="scent-quiz-exit">← Back to the shop</a><span>YOUR SCENT, YOUR RULES</span></div>
+      <div id="scent-quiz-progress" class="scent-quiz-progress" role="progressbar" aria-label="Quiz progress" aria-valuemin="0" aria-valuemax="6" aria-valuenow="0"><span></span></div>
+      <form id="scent-quiz-form"><div id="scent-quiz-content"></div><div class="scent-quiz-actions"><button type="button" id="scent-quiz-back" class="text-link">← Back</button><span id="scent-quiz-step" aria-live="polite"></span><button type="submit" id="scent-quiz-next" class="button primary">Continue <span aria-hidden="true">→</span></button></div></form>
+      <p class="scent-quiz-footnote">A little guidance from our fragrance catalogue. No sign-up needed.</p>
+    </section>
+  
+  </main>
+  <section class="signature-cta" aria-labelledby="signature-cta-heading">
+      <picture class="signature-cta-art" aria-hidden="true"><source media="(max-width:760px)" srcset="assets/signature-cta-mobile.png"><img src="assets/signature-cta-desktop.png" alt="" width="1672" height="941" loading="lazy" decoding="async"></picture>
+      <div class="signature-cta-inner"><div class="signature-cta-copy">
+        <p class="eyebrow">A LITTLE BOTTLE. A LASTING IMPRESSION.</p>
+        <h2 class="signature-cta-heading" id="signature-cta-heading">Your next<br>signature<br>starts here.</h2>
+        <p class="signature-cta-description">Follow your curiosity. Discover a fragrance that feels like you, a little at a time.</p>
+        <div class="signature-cta-actions"><a class="button signature-cta-primary" href="index.html#shop">Find your fragrance</a><a class="signature-cta-secondary" href="index.html#collections">Explore collections <span aria-hidden="true">&rarr;</span></a></div>
+      </div></div>
+    </section>
+  <footer class="footer"><div class="footer-top"><div class="footer-brand"><a class="wordmark brand-logo" href="index.html"><img src="assets/ynotdecants-logo.png" alt="Ynotdecants" width="1124" height="857"></a><p>A little bottle.<br>A whole world of possibility.</p><span class="footer-location">MADE FOR THE SCENT-CURIOUS.</span></div><div><h3>Find your fragrance</h3><a href="https://links.jumpstartbuilds.com/preview/3DMA1kI9IipYmPK9Fj20?notrack=true">Shop all</a><a href="men.html">For men</a><a href="women.html">For women</a><a href="unisex.html">Unisex fragrances</a></div><div><h3>A little guidance</h3><a href="fragrance-quiz.html">Fragrance quiz</a><a href="index.html#how-it-works">The art of decanting</a><a href="index.html#faqs">Frequently asked questions</a><a href="contact.html">Contact &amp; support</a></div><div><h3>The finer details</h3><a href="terms.html">Terms of Service</a><a href="privacy.html">Privacy Policy</a><a href="shipping.html">Shipping Policy</a><a href="returns.html">Returns & Refunds</a><span class="preview-label">STORE PREVIEW</span></div></div><div class="footer-bottom"><span>© <span id="year">2026</span> Ynotdecants. All rights reserved.</span><span>A scent is a feeling. Make it yours. <span aria-hidden="true">✧</span></span></div></footer>
+
+  <dialog id="search-dialog" class="search-dialog"><div class="dialog-heading"><span class="eyebrow">FIND YOUR NEXT OBSESSION</span><button class="icon-button" data-close aria-label="Close search">×</button></div><label class="sr-only" for="search-input">Search fragrances</label><div class="search-field"><svg><use href="#i-search"/></svg><input id="search-input" type="search" placeholder="Try rose, woody, or a fragrance name…" autocomplete="off"></div><div id="search-results" class="search-results"></div></dialog>
+  <dialog id="product-dialog" class="product-dialog"></dialog>
+  <dialog id="quiz-dialog" class="quiz-dialog"></dialog>
+  <dialog id="cart-dialog" class="cart-dialog"><div class="dialog-heading"><h2>Your <em>little luxuries.</em></h2><button class="icon-button" data-close aria-label="Close shopping bag">×</button></div><div id="cart-items"></div><div id="cart-summary"></div></dialog>
+  <dialog id="info-dialog" class="info-dialog"><div class="dialog-heading"><span class="eyebrow">YNOTDECANTS</span><button class="icon-button" data-close aria-label="Close information">×</button></div><div id="info-content"></div></dialog>
+  <div class="toast" id="toast" role="status"></div>
+  <svg class="svg-library" xmlns="http://www.w3.org/2000/svg"><symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></symbol><symbol id="i-bag" viewBox="0 0 24 24"><path d="M5 7h14l1 14H4L5 7Z"/><path d="M8 8V6a4 4 0 0 1 8 0v2"/></symbol><symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.8 4.6c-2.4-2.5-6.2-1.6-8.8 1-2.6-2.6-6.4-3.5-8.8-1-3 3.1-.6 7.2 1.9 9.7L12 21l6.9-6.7c2.5-2.5 4.9-6.6 1.9-9.7Z"/></symbol><symbol id="i-sparkle" viewBox="0 0 24 24"><path d="m12 2 2.7 7.3L22 12l-7.3 2.7L12 22l-2.7-7.3L2 12l7.3-2.7L12 2Z"/></symbol><symbol id="i-bottle" viewBox="0 0 24 24"><path d="M9 2h6v5H9zM8 7h8l2 3v11H6V10l2-3Z"/><path d="M9 13h6v5H9z"/></symbol><symbol id="i-menu" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></symbol></svg>
+</body>
+</html>
+

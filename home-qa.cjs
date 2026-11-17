@@ -11,6 +11,6 @@ run('showProduct("alharamain-amberoud")');assert(!doc.querySelector('#product-di
 run('cart=[{id:"burberry-britsheer",size:30,qty:2}];renderCart()');assert(doc.querySelector('#cart-summary').innerHTML.includes('98.00'));
 assert.equal(run('products.filter(p=>p.categories.includes("women")).length'),66);assert.equal(run('products.filter(p=>p.categories.includes("men")).length'),273);
 doc.querySelector('#search-input').value='Brit Sheer';run('search()');assert(doc.querySelector('#search-results').innerHTML.includes('Brit Sheer'));
-for(const page of ['index.html','men.html','women.html','about.html']){const html=fs.readFileSync(page,'utf8');assert(html.includes('src="catalog.js"'));for(const [,asset] of html.matchAll(/(?:src|href)="(assets\/[^"#]+)"/g))assert(fs.existsSync(asset),asset);}
+for(const page of ['index.html','men.html','women.html','unisex.html','fragrance-quiz.html','contact.html']){const html=fs.readFileSync(page,'utf8');assert(html.includes('src="catalog.js"'));for(const [,asset] of html.matchAll(/(?:src|href)="(assets\/[^"#]+)"/g))assert(fs.existsSync(asset),asset);}
 assert(run('products.every(p=>Object.values(p.prices).every(n=>Number.isFinite(n)&&n>0))'));
 console.log('PASS: catalogue integrity, imported prices, unavailable pricing, four size options, cart totals, category membership, search and page assets.');
