@@ -1,0 +1,158 @@
+<!-- GoHighLevel storefront preview. Replace the previous decant gallery style and script with this block. -->
+<style id="ynd-preview-decant-gallery">
+.hl-product-image-container .ynd-decant-variant-image{display:none}
+.hl-product-image-container [data-ynd-vial-view]{position:relative}
+.hl-product-image-container [data-ynd-vial-view]>.hl-product-image{visibility:hidden}
+.hl-product-image-container [data-ynd-vial-view]>.ynd-decant-variant-image{
+  display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#080503;pointer-events:none
+}
+.ynd-variant-thumbnails{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(64px,1fr);gap:8px;width:100%;margin:10px 0;padding:3px;box-sizing:border-box;overflow-x:auto;scroll-snap-type:x proximity}
+.ynd-variant-thumbnail{
+  display:grid;justify-items:center;gap:4px;min-width:0;padding:4px 4px 6px;color:#f5f5f5;background:#0e0805;
+  border:1px solid #704c3a;border-radius:10px;cursor:pointer;font:inherit;font-size:12px;scroll-snap-align:start
+}
+.ynd-variant-thumbnail img{display:block;width:100%;height:clamp(44px,12vw,76px);object-fit:contain;border-radius:5px}
+.ynd-variant-thumbnail:hover,.ynd-variant-thumbnail[aria-pressed="true"]{border-color:#dda17e;background:#28160f}
+.ynd-variant-thumbnail:focus-visible{outline:2px solid #f2c2a4;outline-offset:2px}
+.ynd-variant-thumbnail:disabled{opacity:.5;cursor:default}
+</style>
+<script id="ynd-preview-decant-gallery-script">
+(() => {
+  if (location.origin !== 'https://links.jumpstartbuilds.com' ||
+      !location.pathname.startsWith('/preview/666UFgKTeBxF9swEjAfP/product/')) return;
+  const artwork = 'https://cdn.jsdelivr.net/gh/ingvar345/YNOTDECANTS-@9ac548d08c4c7766b220ed11c2e0dc2fe82b5354/assets/';
+  const sizeSelector = 'select.pdp-v2-variants__select[aria-label="Size"]';
+  const sizeOf = option => option?.textContent.trim().match(/^(2|5|10|30)\s*ml$/i)?.[1];
+  const vialURL = size => artwork + 'decant-' + size + 'ml.jpg';
+  let showOriginal = false;
+  let scheduled = false;
+
+  function updateThumbnails(gallery, select, originalImage) {
+    let row = gallery.parentElement.querySelector('.ynd-variant-thumbnails');
+    if (!select) {
+      row?.remove();
+      return;
+    }
+    const options = [...select.options].filter(option => sizeOf(option));
+    if (!options.length) {
+      row?.remove();
+      return;
+    }
+    if (!row) {
+      row = document.createElement('div');
+      row.className = 'ynd-variant-thumbnails';
+      row.setAttribute('role', 'group');
+      row.setAttribute('aria-label', 'Bottle images');
+      gallery.after(row);
+    }
+    const signature = JSON.stringify(options.map(option => [option.value, sizeOf(option), option.disabled]));
+    if (row.dataset.options !== signature) {
+      row.dataset.options = signature;
+      const original = document.createElement('button');
+      original.type = 'button';
+      original.className = 'ynd-variant-thumbnail';
+      original.dataset.originalBottle = '';
+      original.setAttribute('aria-label', 'Original bottle');
+      const bottleImage = document.createElement('img');
+      bottleImage.alt = '';
+      const bottleLabel = document.createElement('span');
+      bottleLabel.textContent = 'Original';
+      original.append(bottleImage, bottleLabel);
+      row.replaceChildren(original, ...options.map(option => {
+        const size = sizeOf(option);
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'ynd-variant-thumbnail';
+        button.dataset.variant = option.value;
+        button.disabled = option.disabled;
+        button.setAttribute('aria-label', size + 'ml vial');
+        const thumbnail = document.createElement('img');
+        thumbnail.src = vialURL(size);
+        thumbnail.alt = '';
+        thumbnail.width = 543;
+        thumbnail.height = 724;
+        const label = document.createElement('span');
+        label.textContent = size + 'ml';
+        button.append(thumbnail, label);
+        return button;
+      }));
+    }
+    const bottle = row.querySelector('[data-original-bottle] img');
+    if (originalImage && bottle.getAttribute('src') !== originalImage) bottle.src = originalImage;
+    row.querySelectorAll('button').forEach(button => {
+      const active = showOriginal ? button.hasAttribute('data-original-bottle') : button.dataset.variant === select.value;
+      button.setAttribute('aria-pressed', String(active));
+    });
+  }
+
+  function update() {
+    const original = document.querySelector('.hl-product-image-container .hl-product-image');
+    const gallery = original?.parentElement;
+    if (!gallery) return;
+    const select = document.querySelector(sizeSelector);
+    updateThumbnails(gallery, select, original.currentSrc || original.src);
+    const size = sizeOf(select?.selectedOptions[0]);
+    if (!size || showOriginal) {
+      gallery.removeAttribute('data-ynd-vial-view');
+      return;
+    }
+    let vial = gallery.querySelector('.ynd-decant-variant-image');
+    if (!vial) {
+      vial = document.createElement('img');
+      vial.className = 'ynd-decant-variant-image';
+      vial.addEventListener('load', schedule);
+      vial.addEventListener('error', schedule);
+      gallery.append(vial);
+    }
+    const src = vialURL(size);
+    if (vial.getAttribute('src') !== src) vial.src = src;
+    vial.alt = size + 'ml spray vial (illustration)';
+    gallery.toggleAttribute('data-ynd-vial-view', vial.complete && vial.naturalWidth > 0 && vial.currentSrc === src);
+  }
+
+  function schedule() {
+    if (scheduled) return;
+    scheduled = true;
+    requestAnimationFrame(() => { scheduled = false; update(); });
+  }
+
+  function start() {
+    document.addEventListener('load', event => {
+      if (event.target.matches?.('.hl-product-image-container .hl-product-image')) schedule();
+    }, true);
+    document.addEventListener('change', event => {
+      if (!event.target.matches(sizeSelector)) return;
+      showOriginal = false;
+      schedule();
+    });
+    document.addEventListener('click', event => {
+      const button = event.target.closest('.ynd-variant-thumbnail');
+      if (button) {
+        if (button.hasAttribute('data-original-bottle')) {
+          showOriginal = true;
+          schedule();
+          return;
+        }
+        const select = document.querySelector(sizeSelector);
+        if (!select || button.disabled || select.disabled) return;
+        if (select.value !== button.dataset.variant) {
+          select.value = button.dataset.variant;
+          select.dispatchEvent(new Event('change', {bubbles: true}));
+        } else {
+          showOriginal = false;
+          schedule();
+        }
+      } else if (event.target.closest('.product-image-list')) {
+        showOriginal = true;
+        schedule();
+      }
+    });
+    new MutationObserver(schedule).observe(document.body, {
+      childList: true, subtree: true, attributes: true, attributeFilter: ['selected', 'disabled', 'src', 'srcset']
+    });
+    schedule();
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start, {once: true});
+  else start();
+})();
+</script>

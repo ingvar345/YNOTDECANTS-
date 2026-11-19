@@ -1,10 +1,20 @@
 const fs=require('fs'),vm=require('vm'),assert=require('assert');
-const elements=new Map();function element(){return {dataset:{},textContent:'',innerHTML:'',value:'',open:false,classList:{add(){},remove(){},toggle(){}},addEventListener(){},setAttribute(){},focus(){},before(){},after(){},showModal(){this.open=true},close(){this.open=false}}}
+const elements=new Map();function element(){return {dataset:{},textContent:'',innerHTML:'',value:'',open:false,classList:{add(){},remove(){},toggle(){},contains(name){return this===doc.body.classList && name==='home-page'}},addEventListener(){},setAttribute(){},focus(){},before(){},after(){},showModal(){this.open=true},close(){this.open=false}}}
 const doc={querySelector:s=>{if(!elements.has(s))elements.set(s,element());return elements.get(s)},querySelectorAll:()=>[],createElement:()=>element(),addEventListener(){},body:element()};
-const context=vm.createContext({document:doc,location:{search:''},localStorage:{getItem(){return null},setItem(){}},Intl,URLSearchParams,Date,setTimeout,clearTimeout});
+const viewport={matches:false,addEventListener(type,handler){this.onChange=handler}};
+const context=vm.createContext({document:doc,window:{matchMedia:()=>viewport},location:{search:''},localStorage:{getItem(){return null},setItem(){}},Intl,URLSearchParams,Date,setTimeout,clearTimeout});
 vm.runInContext(fs.readFileSync('catalog.js','utf8'),context);vm.runInContext(fs.readFileSync('script.js','utf8'),context);const run=s=>vm.runInContext(s,context);
 assert.equal(run('products.length'),352);assert.equal(run('new Set(products.map(p=>p.id)).size'),352);
-assert.equal((doc.querySelector('#product-grid').innerHTML.match(/class="product-card"/g)||[]).length,24);
+const cardCount=()=> (doc.querySelector('#product-grid').innerHTML.match(/class="product-card"/g)||[]).length;
+assert.equal(cardCount(),8);
+viewport.matches=true;
+viewport.onChange();
+assert.equal(cardCount(),4);
+run('currentFilter="women";renderProducts()');
+assert.equal(cardCount(),4);
+viewport.matches=false;
+viewport.onChange();
+assert.equal(cardCount(),8);
 assert.equal(run('priceFor(products.find(p=>p.id==="burberry-britsheer"),30)'),49);assert.equal(run('priceFor(products.find(p=>p.id==="burberry-britsheer"),5)'),10.5);
 assert.equal(run('products.filter(p=>p.pricingConflict).length'),13);assert(run('products.filter(p=>p.pricingConflict).every(p=>Object.keys(p.prices).length===0)'));
 run('showProduct("alharamain-amberoud")');assert(!doc.querySelector('#product-dialog').innerHTML.includes('data-add'));run('showProduct("burberry-britsheer")');assert(doc.querySelector('#product-dialog').innerHTML.includes('30ml'));
