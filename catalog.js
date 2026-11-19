@@ -2,6 +2,7 @@
 const products = [
   {
     "id": "abercrombiefitch-firstinstinct",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/abercrombiefitch-firstinstinct",
     "brand": "Abercrombie & Fitch",
     "name": "First Instinct",
     "categories": [
@@ -35,6 +36,7 @@ const products = [
   },
   {
     "id": "afnan-supremacycollectorsedition",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/afnan-supremacycollectorsedition",
     "brand": "Afnan",
     "name": "Supremacy Collector's Edition",
     "categories": [
@@ -145,6 +147,7 @@ const products = [
   },
   {
     "id": "alharamain-amberouddubainight",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/alharamain-amberouddubainight",
     "brand": "Al Haramain",
     "name": "Amber Oud Dubai Night",
     "categories": [
@@ -206,6 +209,7 @@ const products = [
   },
   {
     "id": "alharamain-laventure",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/alharamain-laventure",
     "brand": "Al Haramain",
     "name": "L'aventure",
     "categories": [
@@ -257,6 +261,7 @@ const products = [
   },
   {
     "id": "amouage-existence",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/amouage-existence",
     "brand": "Amouage",
     "name": "Existence",
     "categories": [
@@ -342,6 +347,7 @@ const products = [
   },
   {
     "id": "armaf-clubdenuitintenseman",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/armaf-clubdenuitintenseman",
     "brand": "Armaf",
     "name": "Club de Nuit Intense Man",
     "categories": [
@@ -412,6 +418,7 @@ const products = [
   },
   {
     "id": "azzaro-themostwanted",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/azzaro-themostwanted",
     "brand": "Azzaro",
     "name": "The Most Wanted",
     "categories": [
@@ -440,6 +447,7 @@ const products = [
   },
   {
     "id": "azzaro-wanted",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/azzaro-wanted",
     "brand": "Azzaro",
     "name": "Wanted",
     "categories": [
@@ -468,6 +476,7 @@ const products = [
   },
   {
     "id": "azzaro-wantedbynight",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/azzaro-wantedbynight",
     "brand": "Azzaro",
     "name": "Wanted by Night",
     "categories": [
@@ -496,6 +505,7 @@ const products = [
   },
   {
     "id": "azzaro-wantedtonic",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/azzaro-wantedtonic",
     "brand": "Azzaro",
     "name": "Wanted Tonic",
     "categories": [
@@ -554,6 +564,7 @@ const products = [
   },
   {
     "id": "bondno9-b9",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/bondno9-b9",
     "brand": "Bond no 9",
     "name": "B9",
     "categories": [
@@ -586,6 +597,7 @@ const products = [
   },
   {
     "id": "bondno9-bleeckerstreet",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/bondno9-bleeckerstreet",
     "brand": "Bond no 9",
     "name": "Bleecker Street",
     "categories": [
@@ -614,6 +626,7 @@ const products = [
   },
   {
     "id": "bondno9-dubaijade",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/bondno9-dubaijade",
     "brand": "Bond no 9",
     "name": "Dubai Jade",
     "categories": [
@@ -642,6 +655,7 @@ const products = [
   },
   {
     "id": "bondno9-eaudenewyork",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/bondno9-eaudenewyork",
     "brand": "Bond no 9",
     "name": "Eau de New York",
     "categories": [
@@ -670,6 +684,7 @@ const products = [
   },
   {
     "id": "bondno9-fireisland",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/bondno9-fireisland",
     "brand": "Bond no 9",
     "name": "Fire Island",
     "categories": [
@@ -698,6 +713,7 @@ const products = [
   },
   {
     "id": "bondno9-governorsisland",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/bondno9-governorsisland",
     "brand": "Bond no 9",
     "name": "Governors Island",
     "categories": [
@@ -726,6 +742,7 @@ const products = [
   },
   {
     "id": "bondno9-greenwichvillage",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/bondno9-greenwichvillage",
     "brand": "Bond no 9",
     "name": "Greenwich Village",
     "categories": [
@@ -754,6 +771,7 @@ const products = [
   },
   {
     "id": "bondno9-highline",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/bondno9-highline",
     "brand": "Bond no 9",
     "name": "High Line",
     "categories": [
@@ -782,6 +800,7 @@ const products = [
   },
   {
     "id": "bondno9-ilovenewyorkforfathers",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/bondno9-ilovenewyorkforfathers",
     "brand": "Bond no 9",
     "name": "I Love New York for Fathers",
     "categories": [
@@ -810,6 +829,7 @@ const products = [
   },
   {
     "id": "bondno9-lafayettestreet",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/bondno9-lafayettestreet",
     "brand": "Bond no 9",
     "name": "Lafayette Street",
     "categories": [
@@ -838,6 +858,7 @@ const products = [
   },
   {
     "id": "bondno9-newyorknights",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/bondno9-newyorknights",
     "brand": "Bond no 9",
     "name": "New York Nights",
     "categories": [
@@ -866,6 +887,7 @@ const products = [
   },
   {
     "id": "bondno9-nomad",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/bondno9-nomad",
     "brand": "Bond no 9",
     "name": "NoMad",
     "categories": [
@@ -894,6 +916,7 @@ const products = [
   },
   {
     "id": "bondno9-numberone",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/bondno9-numberone",
     "brand": "Bond no 9",
     "name": "Number One",
     "categories": [
@@ -922,6 +945,7 @@ const products = [
   },
   {
     "id": "bondno9-offbroadway",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/bondno9-offbroadway",
     "brand": "Bond no 9",
     "name": "Off-Broadway",
     "categories": [
@@ -1199,6 +1223,7 @@ const products = [
   },
   {
     "id": "burberry-britsheer",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/burberry-britsheer",
     "brand": "Burberry",
     "name": "Brit Sheer",
     "categories": [
@@ -1346,6 +1371,7 @@ const products = [
   },
   {
     "id": "bvlgari-baciami",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/bvlgari-baciami",
     "brand": "Bvlgari",
     "name": "Baciami",
     "categories": [
@@ -1626,6 +1652,7 @@ const products = [
   },
   {
     "id": "carolinaherrera-goodgirlblush",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/carolinaherrera-goodgirlblush",
     "brand": "Carolina Herrera",
     "name": "Good Girl Blush",
     "categories": [
@@ -2481,6 +2508,7 @@ const products = [
   },
   {
     "id": "escentricmolecules-escentric01",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/escentricmolecules-escentric01",
     "brand": "Escentric Molecules",
     "name": "Escentric 01",
     "categories": [
@@ -3057,6 +3085,7 @@ const products = [
   },
   {
     "id": "gucci-bloom",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/gucci-bloom",
     "brand": "Gucci",
     "name": "Bloom",
     "categories": [
@@ -3085,6 +3114,7 @@ const products = [
   },
   {
     "id": "gucci-bloomambrosia",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/gucci-bloomambrosia",
     "brand": "Gucci",
     "name": "Bloom Ambrosia",
     "categories": [
@@ -3113,6 +3143,7 @@ const products = [
   },
   {
     "id": "gucci-florajasmine",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/gucci-florajasmine",
     "brand": "Gucci",
     "name": "Flora Jasmine",
     "categories": [
@@ -3337,6 +3368,7 @@ const products = [
   },
   {
     "id": "hermes-eauderhubarbeecarlate",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/hermes-eauderhubarbeecarlate",
     "brand": "Hermès",
     "name": "Eau de Rhubarbe Écarlate",
     "categories": [
@@ -3539,6 +3571,7 @@ const products = [
   },
   {
     "id": "jomilano-bonus",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/jomilano-bonus",
     "brand": "Jo Milano",
     "name": "Bonus",
     "categories": [
@@ -3569,6 +3602,7 @@ const products = [
   },
   {
     "id": "jomilano-emerald",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/jomilano-emerald",
     "brand": "Jo Milano",
     "name": "Emerald",
     "categories": [
@@ -3597,6 +3631,7 @@ const products = [
   },
   {
     "id": "jomilano-fullhouse",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/jomilano-fullhouse",
     "brand": "Jo Milano",
     "name": "Full House",
     "categories": [
@@ -3689,6 +3724,7 @@ const products = [
   },
   {
     "id": "jomilano-opal",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/jomilano-opal",
     "brand": "Jo Milano",
     "name": "Opal",
     "categories": [
@@ -3724,6 +3760,7 @@ const products = [
   },
   {
     "id": "jomilano-royale",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/jomilano-royale",
     "brand": "Jo Milano",
     "name": "Royale",
     "categories": [
@@ -5268,6 +5305,7 @@ const products = [
   },
   {
     "id": "maisonmargiela-lazysundaymorning",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/maisonmargiela-lazysundaymorning",
     "brand": "Maison Margiela",
     "name": "Lazy Sunday Morning",
     "categories": [
@@ -5360,6 +5398,7 @@ const products = [
   },
   {
     "id": "mancera-aoudblackcandy",
+    "url": "https://links.jumpstartbuilds.com/preview/666UFgKTeBxF9swEjAfP/product/mancera-aoudblackcandy",
     "brand": "Mancera",
     "name": "Aoud Black Candy",
     "categories": [

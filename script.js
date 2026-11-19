@@ -11,22 +11,46 @@ const sizesFor=p=>[2,5,10,30].filter(s=>Number.isFinite(p.prices[s]));
 const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const categoryLabel=p=>p.category==='uncategorised'?'Fragrance':p.category;
 let catalogLimit=24;
+const homeGrid = document.body.classList.contains("home-page");
+const twoColumnGrid = homeGrid ? window.matchMedia("(max-width: 1000px)") : null;
+const gridProducts = homeGrid ? products.filter(product => product.url) : products;
 const image=p=>p.image || `assets/placeholder-${["men","women"].includes(p.category)?p.category:"unisex"}.png`;
 const closeButton='<button class="icon-button" data-close aria-label="Close dialog">×</button>';
 function persist(){try{localStorage.setItem('ynot-bag',JSON.stringify(cart));localStorage.setItem('ynot-saved',JSON.stringify([...saved]));}catch{} $('#cart-count').textContent=cart.reduce((n,x)=>n+x.qty,0);}
 function toast(message){$('#toast').textContent=message;$('#toast').classList.add('visible');clearTimeout(toast.timer);toast.timer=setTimeout(()=>$('#toast').classList.remove('visible'),3000);}
 function openDialog(id){const dialog=$(id);document.querySelectorAll('dialog[open]').forEach(d=>d.close());dialog.showModal();document.body.classList.add('modal-open');}
 document.querySelectorAll('dialog').forEach(d=>{d.addEventListener('close',()=>document.body.classList.toggle('modal-open',!!document.querySelector('dialog[open]')));d.addEventListener('click',e=>{if(e.target===d){const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)d.close();}});});
+function productCardControl(product, className, label, content){
+ const attributes = `class="${className}" aria-label="${esc(label)}"`;
+ if (homeGrid && product.url) {
+  return `<a ${attributes} href="${esc(product.url)}">${content}</a>`;
+ }
+ return `<button ${attributes} data-product="${esc(product.id)}">${content}</button>`;
+}
+function productCardAction(product){
+ if (homeGrid && product.url) {
+  return productCardControl(product, 'quick-view', `View ${product.name} in the shop`, 'View in shop');
+ }
+ const name = esc(product.name);
+ if (sizesFor(product).length) {
+  return `<button class="quick-view" data-product="${product.id}" aria-label="Choose a size for ${name}">Choose size</button>`;
+ }
+ if (typeof product.url === 'string' && /^https?:\/\//i.test(product.url)) {
+  return `<a class="quick-view" href="${esc(product.url)}" aria-label="View ${name} in the shop">View product</a>`;
+ }
+ return `<button class="quick-view" data-product="${product.id}" aria-label="View details for ${name}">View details</button>`;
+}
 function renderProducts(){
  if(!document.querySelector('#product-grid'))return;
+ const productLimit = homeGrid ? 2 * (twoColumnGrid.matches ? 2 : 4) : catalogLimit;
  const filter=pageCategory||currentFilter,term=($('#catalog-search')?.value||'').trim().toLowerCase(),brand=$('#catalog-brand')?.value||'';
- const visible=products.filter(p=>(filter==='all'||p.categories.includes(filter))&&(!brand||p.brand===brand)&&(!term||[p.name,p.brand,p.description,...p.notes].join(' ').toLowerCase().includes(term)));
+ const visible=gridProducts.filter(p=>(filter==='all'||p.categories.includes(filter))&&(!brand||p.brand===brand)&&(!term||[p.name,p.brand,p.description,...p.notes].join(' ').toLowerCase().includes(term)));
  const sort=$('#collection-sort')?.value;
  if(sort==='price-low')visible.sort((a,b)=>(a.price??Infinity)-(b.price??Infinity));
  if(sort==='price-high')visible.sort((a,b)=>(b.price??-Infinity)-(a.price??-Infinity));
  if(sort==='name')visible.sort((a,b)=>a.name.localeCompare(b.name));
  if($('#product-count'))$('#product-count').textContent=visible.length+' SCENTS';
- $('#product-grid').innerHTML=visible.slice(0,catalogLimit).map(p=>`<article class="product-card"><div class="product-image"><button class="save-button ${saved.has(p.id)?'saved':''}" data-save="${p.id}" aria-label="Save ${esc(p.name)}" aria-pressed="${saved.has(p.id)}"><svg><use href="#i-heart"/></svg></button><button class="product-preview" data-product="${p.id}" aria-label="View ${esc(p.name)}"><img src="${image(p)}" alt="Generated fragrance placeholder; actual product image coming soon" loading="lazy"></button><button class="quick-view" data-product="${p.id}" aria-label="View size options and details for ${esc(p.name)}">${p.price!==null?'Choose size':'View details'}</button></div><div class="product-details"><div class="product-meta"><span>${esc(p.brand)}</span><span>${categoryLabel(p).toUpperCase()}</span></div><button class="product-name" data-product="${p.id}">${esc(p.name)}</button><p class="product-notes">${esc(p.notes.slice(0,3).join(' · ')||'Explore fragrance details')}</p><div class="product-buy"><span class="product-price">${p.price!==null?'<small>From</small>'+money(p.price):'Price to confirm'}</span><button data-product="${p.id}" aria-label="View ${esc(p.name)} details">${p.price!==null?'Choose size':'View details'} <span>→</span></button></div></div></article>`).join('')||'<p class="catalog-empty">No fragrances match your search.</p>';
+ $('#product-grid').innerHTML=visible.slice(0,productLimit).map(p=>`<article class="product-card"><div class="product-image"><button class="save-button ${saved.has(p.id)?'saved':''}" data-save="${p.id}" aria-label="Save ${esc(p.name)}" aria-pressed="${saved.has(p.id)}"><svg><use href="#i-heart"/></svg></button>${productCardControl(p, 'product-preview', `View ${p.name}`, `<img src="${esc(image(p))}" alt="${p.image ? esc(p.name) : 'Generated fragrance placeholder; actual product image coming soon'}" loading="lazy">`)}${productCardAction(p)}</div><div class="product-details"><div class="product-meta"><span>${esc(p.brand)}</span><span>${categoryLabel(p).toUpperCase()}</span></div>${productCardControl(p, 'product-name', p.name, esc(p.name))}<p class="product-notes">${esc(p.notes.slice(0,3).join(' · ')||'Explore fragrance details')}</p><div class="product-buy"><span class="product-price">${p.price!==null?'<small>From</small>'+money(p.price):'Price to confirm'}</span><button data-product="${p.id}" aria-label="View ${esc(p.name)} details">${p.price!==null?'Choose size':'View details'} <span>→</span></button></div></div></article>`).join('')||'<p class="catalog-empty">No fragrances match your search.</p>';
  const more=$('#catalog-more');if(more){more.hidden=catalogLimit>=visible.length;more.textContent='Show more fragrances ('+Math.min(catalogLimit,visible.length)+' of '+visible.length+')';}
  document.querySelectorAll('.filter-tab').forEach(b=>{b.classList.toggle('active',b.dataset.filter===currentFilter);b.setAttribute('aria-pressed',b.dataset.filter===currentFilter);});
 }
@@ -45,10 +69,19 @@ document.addEventListener('click',e=>{const b=e.target.closest('button,a');if(!b
 $('#search-input').addEventListener('input',search);
 $('#year').textContent=new Date().getFullYear();
 if(document.querySelector('#product-grid')){
- const controls=document.createElement('div');controls.className='catalog-controls';controls.innerHTML='<div><label for="catalog-search">Find a fragrance</label><input id="catalog-search" type="search" placeholder="Search brand, fragrance or notes"></div><div><label for="catalog-brand">Brand</label><select id="catalog-brand"><option value="">All brands</option>'+[...new Set(products.filter(p=>!pageCategory||p.categories.includes(pageCategory)).map(p=>p.brand))].sort().map(b=>'<option value="'+esc(b)+'">'+esc(b)+'</option>').join('')+'</select></div>';
- $('#product-grid').before(controls);const pricingNote=document.createElement('p');pricingNote.className='catalog-pricing-note';pricingNote.textContent='Prices in USD · estimates pending confirmation. Generated placeholder images shown.';controls.after(pricingNote);const more=document.createElement('button');more.id='catalog-more';more.className='button catalog-more';more.type='button';$('#product-grid').after(more);more.addEventListener('click',()=>{catalogLimit+=24;renderProducts();});
+ const controls=document.createElement('div');controls.className='catalog-controls';controls.innerHTML='<div><label for="catalog-search">Find a fragrance</label><input id="catalog-search" type="search" placeholder="Search brand, fragrance or notes"></div><div><label for="catalog-brand">Brand</label><select id="catalog-brand"><option value="">All brands</option>'+[...new Set(gridProducts.filter(p=>!pageCategory||p.categories.includes(pageCategory)).map(p=>p.brand))].sort().map(b=>'<option value="'+esc(b)+'">'+esc(b)+'</option>').join('')+'</select></div>';
+ $('#product-grid').before(controls);const pricingNote=document.createElement('p');pricingNote.className='catalog-pricing-note';pricingNote.textContent='Prices in USD · estimates pending confirmation. Generated placeholder images shown.';controls.after(pricingNote);
+ if (!homeGrid) {
+  const more = document.createElement('button');
+  more.id = 'catalog-more';
+  more.className = 'button catalog-more';
+  more.type = 'button';
+  $('#product-grid').after(more);
+  more.addEventListener('click', () => { catalogLimit += 24; renderProducts(); });
+ }
  $('#catalog-search').addEventListener('input',()=>{catalogLimit=24;renderProducts();});$('#catalog-brand').addEventListener('change',()=>{catalogLimit=24;renderProducts();});
 }
+twoColumnGrid?.addEventListener('change', renderProducts);
 renderProducts();persist();
 
 
