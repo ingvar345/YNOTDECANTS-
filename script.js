@@ -47,8 +47,9 @@ function renderProducts(){
  const visible=gridProducts.filter(p=>(filter==='all'||p.categories.includes(filter))&&(!brand||p.brand===brand)&&(!term||[p.name,p.brand,p.description,...p.notes].join(' ').toLowerCase().includes(term)));
  const sort=$('#collection-sort')?.value;
  if(sort==='price-low')visible.sort((a,b)=>(a.price??Infinity)-(b.price??Infinity));
- if(sort==='price-high')visible.sort((a,b)=>(b.price??-Infinity)-(a.price??-Infinity));
- if(sort==='name')visible.sort((a,b)=>a.name.localeCompare(b.name));
+ else if(sort==='price-high')visible.sort((a,b)=>(b.price??-Infinity)-(a.price??-Infinity));
+ else if(sort==='name')visible.sort((a,b)=>a.name.localeCompare(b.name));
+ else visible.sort((a,b)=>Number(Boolean(b.image))-Number(Boolean(a.image)));
  if($('#product-count'))$('#product-count').textContent=visible.length+' SCENTS';
  $('#product-grid').innerHTML=visible.slice(0,productLimit).map(p=>`<article class="product-card"><div class="product-image"><button class="save-button ${saved.has(p.id)?'saved':''}" data-save="${p.id}" aria-label="Save ${esc(p.name)}" aria-pressed="${saved.has(p.id)}"><svg><use href="#i-heart"/></svg></button>${productCardControl(p, 'product-preview', `View ${p.name}`, `<img src="${esc(image(p))}" alt="${p.image ? esc(p.name) : 'Generated fragrance placeholder; actual product image coming soon'}" loading="lazy">`)}${productCardAction(p)}</div><div class="product-details"><div class="product-meta"><span>${esc(p.brand)}</span><span>${categoryLabel(p).toUpperCase()}</span></div>${productCardControl(p, 'product-name', p.name, esc(p.name))}<p class="product-notes">${esc(p.notes.slice(0,3).join(' · ')||'Explore fragrance details')}</p><div class="product-buy"><span class="product-price">${p.price!==null?'<small>From</small>'+money(p.price):'Price to confirm'}</span><button type="button" class="product-add-to-cart" data-product="${esc(p.id)}" aria-label="Add to cart: ${esc(p.name)}"${sizesFor(p).length ? "" : " disabled"}>Add to cart</button></div></div></article>`).join('')||'<p class="catalog-empty">No fragrances match your search.</p>';
  const more=$('#catalog-more');if(more){more.hidden=catalogLimit>=visible.length;more.textContent='Show more fragrances ('+Math.min(catalogLimit,visible.length)+' of '+visible.length+')';}
