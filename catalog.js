@@ -177,7 +177,8 @@ const products = [
     "price": 7.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-alharamain-amberouddubainight.webp"
   },
   {
     "id": "alharamain-aquadubai",
@@ -205,7 +206,8 @@ const products = [
     "price": null,
     "category": "unisex",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-alharamain-aquadubai.webp"
   },
   {
     "id": "alharamain-laventure",
@@ -236,7 +238,8 @@ const products = [
     "price": 6.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-alharamain-laventure.webp"
   },
   {
     "id": "alharamain-laventurefemmeeaudeparfum",
@@ -291,7 +294,8 @@ const products = [
     "price": 11.5,
     "category": "women",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-amouage-existence.webp"
   },
   {
     "id": "arabiyatprestige-mahdaldhahab",
@@ -443,7 +447,8 @@ const products = [
     "price": 6.0,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-azzaro-themostwanted.webp"
   },
   {
     "id": "azzaro-wanted",
@@ -472,7 +477,8 @@ const products = [
     "price": 5.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-azzaro-wanted.webp"
   },
   {
     "id": "azzaro-wantedbynight",
@@ -501,7 +507,8 @@ const products = [
     "price": 6.0,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-azzaro-wantedbynight.webp"
   },
   {
     "id": "azzaro-wantedtonic",
@@ -530,7 +537,8 @@ const products = [
     "price": 5.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-azzaro-wantedtonic.webp"
   },
   {
     "id": "boadiceathevictorious-harmonious",
@@ -560,7 +568,8 @@ const products = [
     "price": null,
     "category": "unisex",
     "mood": "floral",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-boadiceathevictorious-harmonious.webp"
   },
   {
     "id": "bondno9-b9",
@@ -622,7 +631,8 @@ const products = [
     "price": 13.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-bondno9-bleeckerstreet.webp"
   },
   {
     "id": "bondno9-dubaijade",
@@ -651,7 +661,8 @@ const products = [
     "price": 15.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-bondno9-dubaijade.webp"
   },
   {
     "id": "bondno9-eaudenewyork",
@@ -680,7 +691,8 @@ const products = [
     "price": 11.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-bondno9-eaudenewyork.webp"
   },
   {
     "id": "bondno9-fireisland",
@@ -709,7 +721,8 @@ const products = [
     "price": 13.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-bondno9-fireisland.webp"
   },
   {
     "id": "bondno9-governorsisland",
@@ -738,7 +751,8 @@ const products = [
     "price": 13.0,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-bondno9-governorsisland.webp"
   },
   {
     "id": "bondno9-greenwichvillage",
@@ -767,7 +781,8 @@ const products = [
     "price": 13.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-bondno9-greenwichvillage.webp"
   },
   {
     "id": "bondno9-highline",
@@ -796,7 +811,8 @@ const products = [
     "price": 10.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-bondno9-highline.webp"
   },
   {
     "id": "bondno9-ilovenewyorkforfathers",
@@ -825,7 +841,8 @@ const products = [
     "price": 15.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-bondno9-ilovenewyorkforfathers.webp"
   },
   {
     "id": "bondno9-lafayettestreet",
@@ -854,7 +871,8 @@ const products = [
     "price": 13.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-bondno9-lafayettestreet.webp"
   },
   {
     "id": "bondno9-newyorknights",
@@ -883,7 +901,8 @@ const products = [
     "price": 13.0,
     "category": "men",
     "mood": "floral",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-bondno9-newyorknights.webp"
   },
   {
     "id": "bondno9-nomad",
@@ -912,7 +931,8 @@ const products = [
     "price": 15.5,
     "category": "men",
     "mood": "floral",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-bondno9-nomad.webp"
   },
   {
     "id": "bondno9-numberone",
@@ -941,7 +961,8 @@ const products = [
     "price": 13.0,
     "category": "men",
     "mood": "floral",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-bondno9-numberone.webp"
   },
   {
     "id": "bondno9-offbroadway",
@@ -967,7 +988,8 @@ const products = [
     "price": 13.0,
     "category": "men",
     "mood": "floral",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-bondno9-offbroadway.webp"
   },
   {
     "id": "bondno9-sagharbor",
@@ -995,7 +1017,8 @@ const products = [
     "price": 10.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-bondno9-sagharbor.webp"
   },
   {
     "id": "bondno9-shelterisland",
@@ -1023,7 +1046,8 @@ const products = [
     "price": 10.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-bondno9-shelterisland.webp"
   },
   {
     "id": "bondno9-signature",
@@ -1051,7 +1075,8 @@ const products = [
     "price": 13.0,
     "category": "men",
     "mood": "floral",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-bondno9-signature.webp"
   },
   {
     "id": "bondno9-suttonplace",
@@ -1079,7 +1104,8 @@ const products = [
     "price": 13.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-bondno9-suttonplace.webp"
   },
   {
     "id": "bondno9-thescentofpeaceforhim",
@@ -1107,7 +1133,8 @@ const products = [
     "price": 13.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-bondno9-thescentofpeaceforhim.webp"
   },
   {
     "id": "bondno9-tribeca",
@@ -1135,7 +1162,8 @@ const products = [
     "price": 13.0,
     "category": "men",
     "mood": "warm",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-bondno9-tribeca.webp"
   },
   {
     "id": "bondno9-wallstreet",
@@ -1163,7 +1191,8 @@ const products = [
     "price": 10.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-bondno9-wallstreet.webp"
   },
   {
     "id": "bondno9-westside",
@@ -1219,7 +1248,8 @@ const products = [
     "price": 5.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-burberry-britformenlimitededition.webp"
   },
   {
     "id": "burberry-britsheer",
@@ -1252,7 +1282,8 @@ const products = [
     "price": 5.5,
     "category": "women",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-burberry-britsheer.webp"
   },
   {
     "id": "burberry-burberrybritformen",
@@ -1313,7 +1344,8 @@ const products = [
     "price": 4.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-burberry-burberrytouch.webp"
   },
   {
     "id": "burberry-heroparfum",
@@ -1367,7 +1399,8 @@ const products = [
     "price": 8.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-bvlgari-aqvapourhommebvlgari.webp"
   },
   {
     "id": "bvlgari-baciami",
@@ -1396,7 +1429,8 @@ const products = [
     "price": 10.0,
     "category": "women",
     "mood": "floral",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-bvlgari-baciami.webp"
   },
   {
     "id": "bvlgari-bvlgariman",
@@ -1424,7 +1458,8 @@ const products = [
     "price": 9.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-bvlgari-bvlgariman.webp"
   },
   {
     "id": "bvlgari-bvlgarimanblack",
@@ -1452,7 +1487,8 @@ const products = [
     "price": 7.0,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-bvlgari-bvlgarimanblack.webp"
   },
   {
     "id": "bvlgari-legemmetygar",
@@ -1480,7 +1516,8 @@ const products = [
     "price": 14.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-bvlgari-legemmetygar.webp"
   },
   {
     "id": "byredo-oudimmortel",
@@ -1508,7 +1545,8 @@ const products = [
     "price": 10.0,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-byredo-oudimmortel.webp"
   },
   {
     "id": "calvinklein-escapebycalvinklein",
@@ -1592,7 +1630,8 @@ const products = [
     "price": 4.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-carolinaherrera-212men.webp"
   },
   {
     "id": "carolinaherrera-badboy",
@@ -1620,7 +1659,8 @@ const products = [
     "price": 5.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-carolinaherrera-badboy.webp"
   },
   {
     "id": "carolinaherrera-chmen",
@@ -1682,7 +1722,8 @@ const products = [
     "price": 7.0,
     "category": "women",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-carolinaherrera-goodgirlblush.webp"
   },
   {
     "id": "cartier-declarationdunsoir",
@@ -1766,7 +1807,8 @@ const products = [
     "price": 6.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-chanel-allurehomme.webp"
   },
   {
     "id": "chanel-bleudechanel",
@@ -1794,7 +1836,8 @@ const products = [
     "price": 6.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-chanel-bleudechanel.webp"
   },
   {
     "id": "clinque-happy",
@@ -1916,7 +1959,8 @@ const products = [
     "price": 13.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-creed-millesimeimperial.webp"
   },
   {
     "id": "creed-silvermountainwater",
@@ -1944,7 +1988,8 @@ const products = [
     "price": 13.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-creed-silvermountainwater.webp"
   },
   {
     "id": "dior-diorhommecologne",
@@ -1972,7 +2017,8 @@ const products = [
     "price": 6.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-dior-diorhommecologne.webp"
   },
   {
     "id": "dior-diorhommeintense",
@@ -2000,7 +2046,8 @@ const products = [
     "price": 6.5,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-dior-diorhommeintense.webp"
   },
   {
     "id": "dior-diorhommesport",
@@ -2028,7 +2075,8 @@ const products = [
     "price": 6.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-dior-diorhommesport.webp"
   },
   {
     "id": "dior-fahrenheit",
@@ -2121,7 +2169,8 @@ const products = [
     "price": 7.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-dior-sauvageelixir.webp"
   },
   {
     "id": "dior-sauvageparfumdior",
@@ -2283,7 +2332,8 @@ const products = [
     "price": 6.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-dolcegabbana-theone.webp"
   },
   {
     "id": "dumont-elixir",
@@ -2504,7 +2554,8 @@ const products = [
     "price": 14.0,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-escada-escadamagnetism.webp"
   },
   {
     "id": "escentricmolecules-escentric01",
@@ -2561,7 +2612,8 @@ const products = [
     "price": 6.5,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-escentricmolecules-molecule01.webp"
   },
   {
     "id": "escentricmolecules-molecule03",
@@ -2725,7 +2777,8 @@ const products = [
     "price": 3.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-flavia-limpression.webp"
   },
   {
     "id": "fragranceone-officeformen",
@@ -2755,7 +2808,8 @@ const products = [
     "price": 6.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-fragranceone-officeformen.webp"
   },
   {
     "id": "frenchave-royalblend",
@@ -2784,7 +2838,8 @@ const products = [
     "price": null,
     "category": "unisex",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-frenchave-royalblend.webp"
   },
   {
     "id": "frenchave-vulcanbaie",
@@ -2810,7 +2865,8 @@ const products = [
     "price": null,
     "category": "unisex",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-frenchave-vulcanbaie.webp"
   },
   {
     "id": "frenchave-vulcanfeu",
@@ -2840,7 +2896,8 @@ const products = [
     "price": null,
     "category": "unisex",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-frenchave-vulcanfeu.webp"
   },
   {
     "id": "frenchave-vulcansable",
@@ -2870,7 +2927,8 @@ const products = [
     "price": null,
     "category": "unisex",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-frenchave-vulcansable.webp"
   },
   {
     "id": "frenchavenue-liquidbrun",
@@ -2908,7 +2966,8 @@ const products = [
     "price": null,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-giorgioarmani-armanicode.webp"
   },
   {
     "id": "giorgioarmani-armanicodeprofumo",
@@ -2931,7 +2990,8 @@ const products = [
     "price": null,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-giorgioarmani-armanicodeprofumo.webp"
   },
   {
     "id": "gisada-ambassadorintense",
@@ -3025,7 +3085,8 @@ const products = [
     "price": 5.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-givenchy-gentlemansociety.webp"
   },
   {
     "id": "givenchy-gentlemenonly",
@@ -3053,7 +3114,8 @@ const products = [
     "price": 4.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-givenchy-gentlemenonly.webp"
   },
   {
     "id": "givenchy-pibygivenchy",
@@ -3081,7 +3143,8 @@ const products = [
     "price": 6.0,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-givenchy-pibygivenchy.webp"
   },
   {
     "id": "gucci-bloom",
@@ -3110,7 +3173,8 @@ const products = [
     "price": 6.5,
     "category": "women",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-gucci-bloom.webp"
   },
   {
     "id": "gucci-bloomambrosia",
@@ -3139,7 +3203,8 @@ const products = [
     "price": 6.5,
     "category": "women",
     "mood": "floral",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-gucci-bloomambrosia.webp"
   },
   {
     "id": "gucci-florajasmine",
@@ -3168,7 +3233,8 @@ const products = [
     "price": 7.0,
     "category": "women",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-gucci-florajasmine.webp"
   },
   {
     "id": "gucci-guccibyguccipourhomme",
@@ -3224,7 +3290,8 @@ const products = [
     "price": 52.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-gucci-guccienvyformen.webp"
   },
   {
     "id": "gucci-gucciguiltyabsoluteeaudeparfum",
@@ -3280,7 +3347,8 @@ const products = [
     "price": 7.0,
     "category": "men",
     "mood": "floral",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-gucci-guiltyelixirdeparfumpourhomme.webp"
   },
   {
     "id": "gucci-guiltypourhomme",
@@ -3395,7 +3463,8 @@ const products = [
     "price": 6.0,
     "category": "unisex",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-hermes-eauderhubarbeecarlate.webp"
   },
   {
     "id": "hermes-terredhermes",
@@ -3423,7 +3492,8 @@ const products = [
     "price": 7.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-hermes-terredhermes.webp"
   },
   {
     "id": "hugoboss-bossbottled",
@@ -3456,7 +3526,8 @@ const products = [
     "price": 4.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-hugoboss-bossbottled.webp"
   },
   {
     "id": "hugoboss-bossbottledtonic",
@@ -3513,7 +3584,8 @@ const products = [
     "price": 7.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-hugoboss-bossthescent.webp"
   },
   {
     "id": "isseymiyake-leaudisseypourhomme",
@@ -3541,7 +3613,8 @@ const products = [
     "price": 5.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-isseymiyake-leaudisseypourhomme.webp"
   },
   {
     "id": "jimmychoo-illicit",
@@ -3627,7 +3700,8 @@ const products = [
     "price": 7.5,
     "category": "unisex",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-jomilano-emerald.webp"
   },
   {
     "id": "jomilano-fullhouse",
@@ -3657,7 +3731,8 @@ const products = [
     "price": 7.5,
     "category": "unisex",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-jomilano-fullhouse.webp"
   },
   {
     "id": "jomilano-highroller",
@@ -3687,7 +3762,8 @@ const products = [
     "price": 7.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-jomilano-highroller.webp"
   },
   {
     "id": "jomilano-nolimit",
@@ -3792,7 +3868,8 @@ const products = [
     "price": 7.5,
     "category": "unisex",
     "mood": "floral",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-jomilano-royale.webp"
   },
   {
     "id": "jomilanoparis-gameofspadesblacksapphire",
@@ -3905,7 +3982,8 @@ const products = [
     "price": 7.5,
     "category": "uncategorised",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-jomilanoparis-gameofspadeswildcard.webp"
   },
   {
     "id": "jomilanoparis-gamesofspadesboston",
@@ -4038,7 +4116,8 @@ const products = [
     "price": 10.0,
     "category": "men",
     "mood": "warm",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-johnpaulgaultier-gaultier2.webp"
   },
   {
     "id": "johnpaulgaultier-lemaleelixirabsolu",
@@ -4094,7 +4173,8 @@ const products = [
     "price": 6.0,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-johnpaulgaultier-lemaleleparfum.webp"
   },
   {
     "id": "johnpaulgaultier-scandalpourhommeleparfum",
@@ -4145,7 +4225,8 @@ const products = [
     "price": null,
     "category": "men",
     "mood": "warm",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-johnpaulgaultier-ultramale.webp"
   },
   {
     "id": "johnvarvatos-artisianpure",
@@ -4172,7 +4253,8 @@ const products = [
     "price": 6.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-johnvarvatos-artisianpure.webp"
   },
   {
     "id": "johnvarvatos-darkrebelrider",
@@ -4238,7 +4320,8 @@ const products = [
     "price": 5.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-johnvarvatos-vintage.webp"
   },
   {
     "id": "johnvarvatos-xxindigo",
@@ -4271,7 +4354,8 @@ const products = [
     "price": 5.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-johnvarvatos-xxindigo.webp"
   },
   {
     "id": "joop-joop",
@@ -4304,7 +4388,8 @@ const products = [
     "price": 4.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-joop-joop.webp"
   },
   {
     "id": "kayali-yumpistachiogelato",
@@ -4333,7 +4418,8 @@ const products = [
     "price": 8.0,
     "category": "women",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-kayali-yumpistachiogelato.webp"
   },
   {
     "id": "kennethcole-kennethcolesignature",
@@ -4394,7 +4480,8 @@ const products = [
     "price": 6.0,
     "category": "women",
     "mood": "floral",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-kenzo-flowerbykenzo.webp"
   },
   {
     "id": "kenzo-kenzohomme",
@@ -4422,7 +4509,8 @@ const products = [
     "price": 4.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-kenzo-kenzohomme.webp"
   },
   {
     "id": "kenzo-kenzopourhomme",
@@ -4450,7 +4538,8 @@ const products = [
     "price": 4.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-kenzo-kenzopourhomme.webp"
   },
   {
     "id": "kenzo-kenzopower",
@@ -4478,7 +4567,8 @@ const products = [
     "price": 8.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-kenzo-kenzopower.webp"
   },
   {
     "id": "kenzo-worldperfume",
@@ -4542,7 +4632,8 @@ const products = [
     "price": 5.0,
     "category": "women",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-khadlajperfumes-rosecouture.webp"
   },
   {
     "id": "kilian-angelsshare",
@@ -4570,7 +4661,8 @@ const products = [
     "price": 11.5,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-kilian-angelsshare.webp"
   },
   {
     "id": "kilian-applebrandyontherocks",
@@ -4603,7 +4695,8 @@ const products = [
     "price": 9.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-kilian-applebrandyontherocks.webp"
   },
   {
     "id": "kilian-backtoblack",
@@ -4636,7 +4729,8 @@ const products = [
     "price": 9.5,
     "category": "men",
     "mood": "floral",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-kilian-backtoblack.webp"
   },
   {
     "id": "lalique-encrenoire",
@@ -4664,7 +4758,8 @@ const products = [
     "price": 4.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-lalique-encrenoire.webp"
   },
   {
     "id": "lalique-encrenoiresport",
@@ -4692,7 +4787,8 @@ const products = [
     "price": 5.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-lalique-encrenoiresport.webp"
   },
   {
     "id": "lalique-laliquewhite",
@@ -4720,7 +4816,8 @@ const products = [
     "price": 5.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-lalique-laliquewhite.webp"
   },
   {
     "id": "lancome-idole",
@@ -4748,7 +4845,8 @@ const products = [
     "price": 6.5,
     "category": "women",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-lancome-idole.webp"
   },
   {
     "id": "lattafa-awraqaloud",
@@ -4776,7 +4874,8 @@ const products = [
     "price": 4.0,
     "category": "men",
     "mood": "floral",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-lattafa-awraqaloud.webp"
   },
   {
     "id": "lattafa-badeealoudoudforglory",
@@ -4809,7 +4908,8 @@ const products = [
     "price": 4.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-lattafa-badeealoudoudforglory.webp"
   },
   {
     "id": "lattafa-briochevanilleeaudeparfum",
@@ -4863,7 +4963,8 @@ const products = [
     "price": 4.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-lattafa-confidentialprivategold.webp"
   },
   {
     "id": "lattafa-hayaati",
@@ -4891,7 +4992,8 @@ const products = [
     "price": 4.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-lattafa-hayaati.webp"
   },
   {
     "id": "lattafa-khamrah",
@@ -4974,7 +5076,8 @@ const products = [
     "price": 4.0,
     "category": "women",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-lattafa-mayarnaturalintense.webp"
   },
   {
     "id": "lattafa-oudforglory",
@@ -5002,7 +5105,8 @@ const products = [
     "price": 5.0,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-lattafa-oudforglory.webp"
   },
   {
     "id": "lattafa-qaedalfursan",
@@ -5035,7 +5139,8 @@ const products = [
     "price": 4.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-lattafa-qaedalfursan.webp"
   },
   {
     "id": "lattafa-sehr",
@@ -5096,7 +5201,8 @@ const products = [
     "price": 4.0,
     "category": "women",
     "mood": "floral",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-lattafa-yara.webp"
   },
   {
     "id": "lattafa-yaracandy",
@@ -5124,7 +5230,8 @@ const products = [
     "price": 4.0,
     "category": "women",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-lattafa-yaracandy.webp"
   },
   {
     "id": "lizclaiborne-spark",
@@ -5157,7 +5264,8 @@ const products = [
     "price": 4.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-lizclaiborne-spark.webp"
   },
   {
     "id": "louisvuitton-afternoonswim",
@@ -5185,7 +5293,8 @@ const products = [
     "price": 10.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-louisvuitton-afternoonswim.webp"
   },
   {
     "id": "louisvuitton-ombrenomade",
@@ -5213,7 +5322,8 @@ const products = [
     "price": 12.5,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-louisvuitton-ombrenomade.webp"
   },
   {
     "id": "mmicallef-gntonic",
@@ -5246,7 +5356,8 @@ const products = [
     "price": 8.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mmicallef-gntonic.webp"
   },
   {
     "id": "maisonmargiela-bythefireplace",
@@ -5337,7 +5448,8 @@ const products = [
     "price": 6.5,
     "category": "unisex",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-maisonmargiela-lazysundaymorning.webp"
   },
   {
     "id": "maisonmargiela-neverendingsummer",
@@ -5394,7 +5506,8 @@ const products = [
     "price": 7.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mancera-amberful.webp"
   },
   {
     "id": "mancera-aoudblackcandy",
@@ -5429,7 +5542,8 @@ const products = [
     "price": 6.5,
     "category": "unisex",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mancera-aoudblackcandy.webp"
   },
   {
     "id": "mancera-aoudbluenotes",
@@ -5457,7 +5571,8 @@ const products = [
     "price": 7.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mancera-aoudbluenotes.webp"
   },
   {
     "id": "mancera-aoudlemonmint",
@@ -5485,7 +5600,8 @@ const products = [
     "price": 7.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mancera-aoudlemonmint.webp"
   },
   {
     "id": "mancera-aoudvanille",
@@ -5513,7 +5629,8 @@ const products = [
     "price": 7.0,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mancera-aoudvanille.webp"
   },
   {
     "id": "mancera-aquawood",
@@ -5536,7 +5653,8 @@ const products = [
     "price": null,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mancera-aquawood.webp"
   },
   {
     "id": "mancera-blackline",
@@ -5559,7 +5677,8 @@ const products = [
     "price": null,
     "category": "men",
     "mood": "floral",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mancera-blackline.webp"
   },
   {
     "id": "mancera-cedratboise",
@@ -5587,7 +5706,8 @@ const products = [
     "price": 7.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mancera-cedratboise.webp"
   },
   {
     "id": "mancera-cocovanille",
@@ -5620,7 +5740,8 @@ const products = [
     "price": 7.0,
     "category": "women",
     "mood": "floral",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mancera-cocovanille.webp"
   },
   {
     "id": "mancera-cosmicpepper",
@@ -5655,7 +5776,8 @@ const products = [
     "price": 7.0,
     "category": "unisex",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mancera-cosmicpepper.webp"
   },
   {
     "id": "mancera-crazyforoud",
@@ -5688,7 +5810,8 @@ const products = [
     "price": 7.0,
     "category": "men",
     "mood": "floral",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mancera-crazyforoud.webp"
   },
   {
     "id": "mancera-fabulousyuzu",
@@ -5711,7 +5834,8 @@ const products = [
     "price": null,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mancera-fabulousyuzu.webp"
   },
   {
     "id": "mancera-frenchriviera",
@@ -5741,7 +5865,8 @@ const products = [
     "price": null,
     "category": "unisex",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mancera-frenchriviera.webp"
   },
   {
     "id": "mancera-holidays",
@@ -5776,7 +5901,8 @@ const products = [
     "price": 7.0,
     "category": "unisex",
     "mood": "floral",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mancera-holidays.webp"
   },
   {
     "id": "mancera-instantcrush",
@@ -5804,7 +5930,8 @@ const products = [
     "price": 7.0,
     "category": "men",
     "mood": "floral",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mancera-instantcrush.webp"
   },
   {
     "id": "mancera-intensecedratboise",
@@ -5832,7 +5959,8 @@ const products = [
     "price": 8.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mancera-intensecedratboise.webp"
   },
   {
     "id": "mancera-jardinexclusif",
@@ -5860,7 +5988,8 @@ const products = [
     "price": 7.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mancera-jardinexclusif.webp"
   },
   {
     "id": "mancera-jasminexclusif",
@@ -5921,7 +6050,8 @@ const products = [
     "price": 7.0,
     "category": "women",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mancera-juicyflowers.webp"
   },
   {
     "id": "mancera-lemonline",
@@ -5952,7 +6082,8 @@ const products = [
     "price": 7.0,
     "category": "unisex",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mancera-lemonline.webp"
   },
   {
     "id": "mancera-pearl",
@@ -5985,7 +6116,8 @@ const products = [
     "price": 7.0,
     "category": "women",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mancera-pearl.webp"
   },
   {
     "id": "mancera-preciousoud",
@@ -6008,7 +6140,8 @@ const products = [
     "price": null,
     "category": "men",
     "mood": "floral",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mancera-preciousoud.webp"
   },
   {
     "id": "mancera-redtobacco",
@@ -6040,7 +6173,8 @@ const products = [
     "price": 7.0,
     "category": "men",
     "mood": "warm",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mancera-redtobacco.webp"
   },
   {
     "id": "mancera-rosesvanille",
@@ -6071,7 +6205,8 @@ const products = [
     "price": 7.0,
     "category": "women",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mancera-rosesvanille.webp"
   },
   {
     "id": "mancera-sicily",
@@ -6102,7 +6237,8 @@ const products = [
     "price": 7.0,
     "category": "unisex",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mancera-sicily.webp"
   },
   {
     "id": "mancera-soleilditalie",
@@ -6133,7 +6269,8 @@ const products = [
     "price": 7.0,
     "category": "unisex",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mancera-soleilditalie.webp"
   },
   {
     "id": "mancera-tonkacola",
@@ -6161,7 +6298,8 @@ const products = [
     "price": 7.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mancera-tonkacola.webp"
   },
   {
     "id": "mancera-vetiversensuel",
@@ -6189,7 +6327,8 @@ const products = [
     "price": 7.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mancera-vetiversensuel.webp"
   },
   {
     "id": "mancera-wavemusk",
@@ -6217,7 +6356,8 @@ const products = [
     "price": null,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mancera-wavemusk.webp"
   },
   {
     "id": "marcjacobs-daisylove",
@@ -6245,7 +6385,8 @@ const products = [
     "price": 6.0,
     "category": "women",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-marcjacobs-daisylove.webp"
   },
   {
     "id": "marcjacobs-dot",
@@ -6330,7 +6471,8 @@ const products = [
     "price": 8.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mfk-gentlefluiditysilver.webp"
   },
   {
     "id": "mfk-grandsoir",
@@ -6358,7 +6500,8 @@ const products = [
     "price": 8.5,
     "category": "men",
     "mood": "warm",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mfk-grandsoir.webp"
   },
   {
     "id": "mfk-oudsatinmood",
@@ -6386,7 +6529,8 @@ const products = [
     "price": 10.0,
     "category": "men",
     "mood": "floral",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mfk-oudsatinmood.webp"
   },
   {
     "id": "michaelmalullondon-jetblackreserve",
@@ -6411,7 +6555,8 @@ const products = [
     "price": 5.5,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-michaelmalullondon-jetblackreserve.webp"
   },
   {
     "id": "mindgames-frenchdefense",
@@ -6439,7 +6584,8 @@ const products = [
     "price": 11.0,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mindgames-frenchdefense.webp"
   },
   {
     "id": "mindgames-gambit",
@@ -6467,7 +6613,8 @@ const products = [
     "price": 11.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mindgames-gambit.webp"
   },
   {
     "id": "mindgames-jadoube",
@@ -6495,7 +6642,8 @@ const products = [
     "price": 11.0,
     "category": "men",
     "mood": "floral",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mindgames-jadoube.webp"
   },
   {
     "id": "missdior-rosenroses",
@@ -6525,7 +6673,8 @@ const products = [
     "price": 6.0,
     "category": "women",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-missdior-rosenroses.webp"
   },
   {
     "id": "moncler-cieldhiverunnerolienmajeste",
@@ -6553,7 +6702,8 @@ const products = [
     "price": 11.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-moncler-cieldhiverunnerolienmajeste.webp"
   },
   {
     "id": "moncler-lesolstice",
@@ -6596,7 +6746,8 @@ const products = [
     "price": 4.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-moncler-monclersunrisepourhomme.webp"
   },
   {
     "id": "moncler-sunrisepourfemme",
@@ -6624,7 +6775,8 @@ const products = [
     "price": 7.0,
     "category": "women",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-moncler-sunrisepourfemme.webp"
   },
   {
     "id": "montale-ambermusk",
@@ -6710,7 +6862,8 @@ const products = [
     "price": 7.0,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-montale-arabianstonka.webp"
   },
   {
     "id": "montale-blackaoud",
@@ -6738,7 +6891,8 @@ const products = [
     "price": 7.0,
     "category": "men",
     "mood": "floral",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-montale-blackaoud.webp"
   },
   {
     "id": "montale-daydreams",
@@ -6764,7 +6918,8 @@ const products = [
     "price": null,
     "category": "unisex",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-montale-daydreams.webp"
   },
   {
     "id": "montale-honeyaoud",
@@ -6792,7 +6947,8 @@ const products = [
     "price": 7.0,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-montale-honeyaoud.webp"
   },
   {
     "id": "montale-mangomanga",
@@ -6825,7 +6981,8 @@ const products = [
     "price": 5.0,
     "category": "women",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-montale-mangomanga.webp"
   },
   {
     "id": "montale-oudsapparot",
@@ -6884,7 +7041,8 @@ const products = [
     "price": 7.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-montale-oudmazing.webp"
   },
   {
     "id": "montale-ristrettointensecafe",
@@ -6915,7 +7073,8 @@ const products = [
     "price": 7.5,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-montale-ristrettointensecafe.webp"
   },
   {
     "id": "montale-rosesmusk",
@@ -6943,7 +7102,8 @@ const products = [
     "price": 5.5,
     "category": "women",
     "mood": "floral",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-montale-rosesmusk.webp"
   },
   {
     "id": "montale-woodsandspices",
@@ -7004,7 +7164,8 @@ const products = [
     "price": 6.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-montblanc-explorer.webp"
   },
   {
     "id": "montblanc-individuel",
@@ -7032,7 +7193,8 @@ const products = [
     "price": 4.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-montblanc-individuel.webp"
   },
   {
     "id": "montblanc-legendmontblanc",
@@ -7060,7 +7222,8 @@ const products = [
     "price": 5.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-montblanc-legendmontblanc.webp"
   },
   {
     "id": "montblanc-signature",
@@ -7091,7 +7254,8 @@ const products = [
     "price": 5.5,
     "category": "women",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-montblanc-signature.webp"
   },
   {
     "id": "narcisorodriguez-narcisorodriguezforhim",
@@ -7157,7 +7321,8 @@ const products = [
     "price": 6.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-nasomatto-blackafgano.webp"
   },
   {
     "id": "nautica-voyage",
@@ -7185,7 +7350,8 @@ const products = [
     "price": 3.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-nautica-voyage.webp"
   },
   {
     "id": "nicolemiller-nicolemillerformen",
@@ -7241,7 +7407,8 @@ const products = [
     "price": 11.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-nishane-wulongcha.webp"
   },
   {
     "id": "pacorabanne-1millionlucky",
@@ -7269,7 +7436,8 @@ const products = [
     "price": 5.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-pacorabanne-1millionlucky.webp"
   },
   {
     "id": "pacorabanne-invictusaqua",
@@ -7302,7 +7470,8 @@ const products = [
     "price": 6.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-pacorabanne-invictusaqua.webp"
   },
   {
     "id": "pacorabanne-milliongoldforher",
@@ -7330,7 +7499,8 @@ const products = [
     "price": 7.0,
     "category": "women",
     "mood": "floral",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-pacorabanne-milliongoldforher.webp"
   },
   {
     "id": "pacorabanne-purexs",
@@ -7353,7 +7523,8 @@ const products = [
     "price": null,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-pacorabanne-purexs.webp"
   },
   {
     "id": "pacorabanne-rabannephantom",
@@ -7381,7 +7552,8 @@ const products = [
     "price": 4.5,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-pacorabanne-rabannephantom.webp"
   },
   {
     "id": "parfumsdemarly-goldophin",
@@ -7446,7 +7618,8 @@ const products = [
     "price": 11.5,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-parfumsdemarly-layton.webp"
   },
   {
     "id": "parfumsdemarly-laytonexclusif",
@@ -7474,7 +7647,8 @@ const products = [
     "price": 12.5,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-parfumsdemarly-laytonexclusif.webp"
   },
   {
     "id": "parfumsdemarly-pegasus",
@@ -7502,7 +7676,8 @@ const products = [
     "price": 11.5,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-parfumsdemarly-pegasus.webp"
   },
   {
     "id": "parfumsdemarly-percival",
@@ -7530,7 +7705,8 @@ const products = [
     "price": 11.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-parfumsdemarly-percival.webp"
   },
   {
     "id": "parfumsdemarly-perseus",
@@ -7558,7 +7734,8 @@ const products = [
     "price": 11.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-parfumsdemarly-perseus.webp"
   },
   {
     "id": "pariscorner-noufpineapple",
@@ -7637,7 +7814,8 @@ const products = [
     "price": 4.0,
     "category": "women",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-pariscorner-qissadelicious.webp"
   },
   {
     "id": "pariscorner-qissapink",
@@ -7691,7 +7869,8 @@ const products = [
     "price": 3.5,
     "category": "men",
     "mood": "warm",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-perryellis-360blackformen.webp"
   },
   {
     "id": "perryellis-360redformen",
@@ -7719,7 +7898,8 @@ const products = [
     "price": 3.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-perryellis-360redformen.webp"
   },
   {
     "id": "prada-lunarossa",
@@ -7747,7 +7927,8 @@ const products = [
     "price": 5.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-prada-lunarossa.webp"
   },
   {
     "id": "prada-lunarossablackprada",
@@ -7775,7 +7956,8 @@ const products = [
     "price": 6.0,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-prada-lunarossablackprada.webp"
   },
   {
     "id": "prada-lunarossaoceanprada",
@@ -7803,7 +7985,8 @@ const products = [
     "price": 6.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-prada-lunarossaoceanprada.webp"
   },
   {
     "id": "prada-pradalhomme",
@@ -7831,7 +8014,8 @@ const products = [
     "price": 6.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-prada-pradalhomme.webp"
   },
   {
     "id": "rasari-hawaseclat",
@@ -7911,7 +8095,8 @@ const products = [
     "price": 3.0,
     "category": "men",
     "mood": "floral",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-rasasi-daarejpourhomme.webp"
   },
   {
     "id": "rasasi-hawas",
@@ -7939,7 +8124,8 @@ const products = [
     "price": 3.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-rasasi-hawas.webp"
   },
   {
     "id": "rasasi-hawasblack",
@@ -7967,7 +8153,8 @@ const products = [
     "price": 3.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-rasasi-hawasblack.webp"
   },
   {
     "id": "rasasi-hawasfire",
@@ -7998,7 +8185,8 @@ const products = [
     "price": 4.0,
     "category": "men",
     "mood": "floral",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-rasasi-hawasfire.webp"
   },
   {
     "id": "rasasi-hawasforher",
@@ -8026,7 +8214,8 @@ const products = [
     "price": 6.0,
     "category": "women",
     "mood": "floral",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-rasasi-hawasforher.webp"
   },
   {
     "id": "rasasi-hawasice",
@@ -8059,7 +8248,8 @@ const products = [
     "price": 3.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-rasasi-hawasice.webp"
   },
   {
     "id": "rasasi-hawastropical",
@@ -8092,7 +8282,8 @@ const products = [
     "price": 4.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-rasasi-hawastropical.webp"
   },
   {
     "id": "rasasi-tasmeemmen",
@@ -8120,7 +8311,8 @@ const products = [
     "price": 3.5,
     "category": "men",
     "mood": "floral",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-rasasi-tasmeemmen.webp"
   },
   {
     "id": "rayhaan-oceanrush",
@@ -8202,7 +8394,8 @@ const products = [
     "price": 3.5,
     "category": "men",
     "mood": "warm",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-rochas-rochasman.webp"
   },
   {
     "id": "roja-apexeauintense",
@@ -8237,7 +8430,8 @@ const products = [
     "price": 11.0,
     "category": "unisex",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-roja-apexeauintense.webp"
   },
   {
     "id": "royalefragrance-hayaati",
@@ -8486,7 +8680,8 @@ const products = [
     "price": 8.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-stephanehumbertlucas-godoffire.webp"
   },
   {
     "id": "stephanehumbertlucas-sanddance",
@@ -8514,7 +8709,8 @@ const products = [
     "price": 8.5,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-stephanehumbertlucas-sanddance.webp"
   },
   {
     "id": "stephanehumbertlucas-venomincarnat",
@@ -8542,7 +8738,8 @@ const products = [
     "price": 8.5,
     "category": "men",
     "mood": "warm",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-stephanehumbertlucas-venomincarnat.webp"
   },
   {
     "id": "superz-dominancegold",
@@ -8570,7 +8767,8 @@ const products = [
     "price": 6.0,
     "category": "men",
     "mood": "floral",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-superz-dominancegold.webp"
   },
   {
     "id": "superz-endlesssea",
@@ -8598,7 +8796,8 @@ const products = [
     "price": 6.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-superz-endlesssea.webp"
   },
   {
     "id": "superz-khamzatsmesh",
@@ -8626,7 +8825,8 @@ const products = [
     "price": 6.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-superz-khamzatsmesh.webp"
   },
   {
     "id": "superz-khamzatthewolf",
@@ -8682,7 +8882,8 @@ const products = [
     "price": 4.0,
     "category": "men",
     "mood": "warm",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-swissarabian-shaghafoudtonka.webp"
   },
   {
     "id": "theirrymugler-amensilveredition",
@@ -8743,7 +8944,8 @@ const products = [
     "price": 13.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-thierrymugler-ultrazest.webp"
   },
   {
     "id": "tizianaterenzi-casanova",
@@ -8799,7 +9001,8 @@ const products = [
     "price": 10.0,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-tizianaterenzi-goldroseoudh.webp"
   },
   {
     "id": "tizianaterenzi-gumin",
@@ -8830,7 +9033,8 @@ const products = [
     "price": 14.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-tizianaterenzi-gumin.webp"
   },
   {
     "id": "tomford-blackorchid",
@@ -8858,7 +9062,8 @@ const products = [
     "price": 8.0,
     "category": "men",
     "mood": "floral",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-tomford-blackorchid.webp"
   },
   {
     "id": "tomford-neroliportofino",
@@ -8886,7 +9091,8 @@ const products = [
     "price": 12.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-tomford-neroliportofino.webp"
   },
   {
     "id": "tomford-noirextreme",
@@ -8914,7 +9120,8 @@ const products = [
     "price": 8.0,
     "category": "men",
     "mood": "warm",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-tomford-noirextreme.webp"
   },
   {
     "id": "tomford-ombreleather",
@@ -8959,7 +9166,8 @@ const products = [
     "price": 12.5,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-tomford-oudwood.webp"
   },
   {
     "id": "tomford-soleilblanc",
@@ -8987,7 +9195,8 @@ const products = [
     "price": 12.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-tomford-soleilblanc.webp"
   },
   {
     "id": "truereligion-pink",
@@ -9009,7 +9218,8 @@ const products = [
     "price": 3.5,
     "category": "women",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-truereligion-pink.webp"
   },
   {
     "id": "valentino-valentinouomoborninromaintense",
@@ -9065,7 +9275,8 @@ const products = [
     "price": 6.0,
     "category": "men",
     "mood": "warm",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-valentino-valentinouomointense.webp"
   },
   {
     "id": "vancleefarpels-midnightinparis",
@@ -9149,7 +9360,8 @@ const products = [
     "price": 5.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-versace-babybluejeans.webp"
   },
   {
     "id": "versace-bluejeans",
@@ -9177,7 +9389,8 @@ const products = [
     "price": 4.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-versace-bluejeans.webp"
   },
   {
     "id": "versace-dylanblue",
@@ -9208,7 +9421,8 @@ const products = [
     "price": 6.5,
     "category": "women",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-versace-dylanblue.webp"
   },
   {
     "id": "versace-dylanpurple",
@@ -9303,7 +9517,8 @@ const products = [
     "price": null,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-versace-erosflame.webp"
   },
   {
     "id": "versace-erosparfum",
@@ -9331,7 +9546,8 @@ const products = [
     "price": 6.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-versace-erosparfum.webp"
   },
   {
     "id": "versace-erospourfemmeeaudeparfum",
@@ -9376,7 +9592,8 @@ const products = [
     "price": 4.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-versace-thedreamer.webp"
   },
   {
     "id": "versace-versacemaneaufraiche",
@@ -9404,7 +9621,8 @@ const products = [
     "price": 5.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-versace-versacemaneaufraiche.webp"
   },
   {
     "id": "versace-versacepourhomme",
@@ -9432,7 +9650,8 @@ const products = [
     "price": 5.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-versace-versacepourhomme.webp"
   },
   {
     "id": "versace-versacepourhommedylanblue",
@@ -9493,7 +9712,8 @@ const products = [
     "price": 7.0,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-versace-versacepourhommeoudnoir.webp"
   },
   {
     "id": "viktorrolf-antidote",
@@ -9521,7 +9741,8 @@ const products = [
     "price": 26.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-viktorrolf-antidote.webp"
   },
   {
     "id": "viktorrolf-spicebomb",
@@ -9549,7 +9770,8 @@ const products = [
     "price": 6.0,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-viktorrolf-spicebomb.webp"
   },
   {
     "id": "viktorrolf-spicebombextreme",
@@ -9606,7 +9828,8 @@ const products = [
     "price": 9.0,
     "category": "women",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-vilhelmparfumerie-mangoskineaudeparfum.webp"
   },
   {
     "id": "xerjoff-40knots",
@@ -9634,7 +9857,8 @@ const products = [
     "price": 10.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-xerjoff-40knots.webp"
   },
   {
     "id": "xerjoff-erbagold",
@@ -9662,7 +9886,8 @@ const products = [
     "price": 10.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-xerjoff-erbagold.webp"
   },
   {
     "id": "xerjoff-naxos",
@@ -9690,7 +9915,8 @@ const products = [
     "price": 9.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-xerjoff-naxos.webp"
   },
   {
     "id": "ysl-babycatyvessaintlaurent",
@@ -9723,7 +9949,8 @@ const products = [
     "price": 10.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-ysl-babycatyvessaintlaurent.webp"
   },
   {
     "id": "ysl-tuxedoyvessaintlaurent",
@@ -9756,7 +9983,8 @@ const products = [
     "price": 10.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-ysl-tuxedoyvessaintlaurent.webp"
   },
   {
     "id": "ysl-ytheyvessaintlaurentperfume",
@@ -9903,7 +10131,8 @@ const products = [
     "price": 5.0,
     "category": "women",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-zara-violetblossom.webp"
   },
   {
     "id": "zirh-corduroy",
@@ -9931,6 +10160,7 @@ const products = [
     "price": 3.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-zirh-corduroy.webp"
   }
 ];

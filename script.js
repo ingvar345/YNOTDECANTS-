@@ -71,7 +71,7 @@ $('#search-input').addEventListener('input',search);
 $('#year').textContent=new Date().getFullYear();
 if(document.querySelector('#product-grid')){
  const controls=document.createElement('div');controls.className='catalog-controls';controls.innerHTML='<div><label for="catalog-search">Find a fragrance</label><input id="catalog-search" type="search" placeholder="Search brand, fragrance or notes"></div><div><label for="catalog-brand">Brand</label><select id="catalog-brand"><option value="">All brands</option>'+[...new Set(gridProducts.filter(p=>!pageCategory||p.categories.includes(pageCategory)).map(p=>p.brand))].sort().map(b=>'<option value="'+esc(b)+'">'+esc(b)+'</option>').join('')+'</select></div>';
- $('#product-grid').before(controls);const pricingNote=document.createElement('p');pricingNote.className='catalog-pricing-note';pricingNote.textContent='Prices in USD · estimates pending confirmation. Generated placeholder images shown.';controls.after(pricingNote);
+ $('#product-grid').before(controls);const pricingNote=document.createElement('p');pricingNote.className='catalog-pricing-note';pricingNote.textContent='Prices in USD · estimates pending confirmation. Bottle photos show the original fragrance. Orders are supplied in decant atomizers.';controls.after(pricingNote);
  if (!homeGrid) {
   const more = document.createElement('button');
   more.id = 'catalog-more';
