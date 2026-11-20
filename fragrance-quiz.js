@@ -14,31 +14,31 @@
       ['all','Keep me curious','Explore the whole collection.','assets/ynotdecants-packaging.png']
     ]},
     {key:'families',title:'Which notes draw you in?',intro:'Choose one or two scent families. There’s no wrong combination.',multi:true,max:2,options:[
-      ['fresh','Fresh & bright','Citrus, green notes and a breath of fresh air.'],
-      ['floral','Soft & floral','Rose, jasmine and freshly picked petals.'],
-      ['woody','Woods & depth','Cedar, sandalwood and earthy warmth.'],
-      ['warm','Warm & comforting','Amber, vanilla and a touch of sweetness.']
+      ['fresh','Fresh & bright','Citrus, green notes and a breath of fresh air.','assets/quiz/bergamot.webp'],
+      ['floral','Soft & floral','Rose, jasmine and freshly picked petals.','assets/quiz/jasmine.webp'],
+      ['woody','Woods & depth','Cedar, sandalwood and earthy warmth.','assets/quiz/cedar.webp'],
+      ['warm','Warm & comforting','Amber, vanilla and a touch of sweetness.','assets/quiz/amber.webp']
     ]},
     {key:'occasion',title:'When will you wear it?',intro:'Think of the moments you’d like your fragrance to be part of.',options:[
-      ['day','Everyday moments','Work, coffee and everything in between.'],
-      ['night','After dark','Dinner dates and evenings that linger.'],
-      ['any','Whenever I feel like it','No occasion needed.']
+      ['day','Everyday moments','Work, coffee and everything in between.','assets/quiz/espresso.webp'],
+      ['night','After dark','Dinner dates and evenings that linger.','assets/quiz/candlelight.webp'],
+      ['any','Whenever I feel like it','No occasion needed.','assets/quiz/carry-atomizer.webp']
     ]},
     {key:'season',title:'What’s the feeling outside?',intro:'We’ll use the catalogue’s wear suggestions to guide your matches.',options:[
-      ['warm','Sun on my skin','Spring days and summer evenings.'],
-      ['cool','A little cooler','Autumn layers and winter nights.'],
-      ['any','A scent for every season','Something to reach for all year.']
+      ['warm','Sun on my skin','Spring days and summer evenings.','assets/quiz/summer.webp'],
+      ['cool','A little cooler','Autumn layers and winter nights.','assets/quiz/winter.webp'],
+      ['any','A scent for every season','Something to reach for all year.','assets/quiz/four-seasons.webp']
     ]},
     {key:'avoid',title:'Anything you’d rather skip?',intro:'Optional: select notes you don’t enjoy, or continue with an open mind.',multi:true,optional:true,options:[
-      ['sweet','Very sweet notes','Sugar, caramel and candy-like sweetness.'],
-      ['rose','Rose','Skip fragrances with rose in their listed notes.'],
-      ['oud','Oud','Skip oud and agarwood notes.'],
-      ['tobacco','Tobacco','Skip fragrances with tobacco notes.']
+      ['sweet','Very sweet notes','Sugar, caramel and candy-like sweetness.','assets/quiz/caramel.webp'],
+      ['rose','Rose','Skip fragrances with rose in their listed notes.','assets/quiz/rose.webp'],
+      ['oud','Oud','Skip oud and agarwood notes.','assets/quiz/oud.webp'],
+      ['tobacco','Tobacco','Skip fragrances with tobacco notes.','assets/quiz/tobacco.webp']
     ]},
     {key:'budget',title:'What’s your discovery budget?',intro:'Choose a starting price for a 2ml decant. Catalogue prices are estimates in USD.',options:[
-      ['10','Up to USD 10','A little everyday discovery.'],
-      ['20','Up to USD 20','A little more room to explore.'],
-      ['any','Keep my options open','Let the notes lead the way.']
+      ['10','Up to USD 10','A little everyday discovery.','assets/quiz/sample-vial.webp'],
+      ['20','Up to USD 20','A little more room to explore.','assets/quiz/sample-pair.webp'],
+      ['any','Keep my options open','Let the notes lead the way.','assets/quiz/discovery-set.webp']
     ]}
   ];
   let position = 0;
@@ -72,7 +72,7 @@
     const step = steps[position];
     form.classList.remove('showing-matches');
     form.querySelector('.scent-quiz-actions').hidden = false;
-    content.innerHTML = `<div class="scent-question-heading"><p class="eyebrow">FIND YOUR NEXT SIGNATURE</p><h1 tabindex="-1">${esc(step.title)}</h1><p>${esc(step.intro)}</p></div><fieldset class="scent-choices ${position===0?'scent-choices-visual':''}"><legend class="sr-only">${esc(step.title)}</legend>${step.options.map(([value,title,description,art])=>`<label class="scent-choice ${selected(step,value)?'is-selected':''}"><input type="${step.multi?'checkbox':'radio'}" name="${step.key}" value="${value}" ${selected(step,value)?'checked':''}><span class="scent-choice-check" aria-hidden="true">✓</span>${art?`<img src="${art}" alt="" width="400" height="400">`:''}<span class="scent-choice-copy"><strong>${esc(title)}</strong><span>${esc(description)}</span></span></label>`).join('')}</fieldset><p id="scent-choice-feedback" class="scent-choice-feedback" role="status">${step.multi&&!step.optional?'Choose up to two.':''}</p>`;
+    content.innerHTML = `<div class="scent-question-heading"><p class="eyebrow">FIND YOUR NEXT SIGNATURE</p><h1 tabindex="-1">${esc(step.title)}</h1><p>${esc(step.intro)}</p></div><fieldset class="scent-choices scent-choices-visual ${step.options.length===3?'scent-choices-three':''}"><legend class="sr-only">${esc(step.title)}</legend>${step.options.map(([value,title,description,art])=>`<label class="scent-choice ${selected(step,value)?'is-selected':''}"><input type="${step.multi?'checkbox':'radio'}" name="${step.key}" value="${value}" ${selected(step,value)?'checked':''}><span class="scent-choice-check" aria-hidden="true">✓</span><img src="${art}" alt="" width="400" height="400"><span class="scent-choice-copy"><strong>${esc(title)}</strong><span>${esc(description)}</span></span></label>`).join('')}</fieldset><p id="scent-choice-feedback" class="scent-choice-feedback" role="status">${step.multi&&!step.optional?'Choose up to two.':''}</p>`;
     updateNavigation();
     if (shouldFocus) focusHeading();
   }

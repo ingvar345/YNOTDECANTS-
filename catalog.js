@@ -66,7 +66,8 @@ const products = [
     "price": 5.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-afnan-supremacycollectorsedition.webp"
   },
   {
     "id": "afnan-supremacyinheavenpourhomme",
@@ -143,7 +144,8 @@ const products = [
     "price": null,
     "category": "unisex",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-alharamain-amberoud.webp"
   },
   {
     "id": "alharamain-amberouddubainight",
@@ -376,7 +378,8 @@ const products = [
     "price": 5.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-armaf-clubdenuitintenseman.webp"
   },
   {
     "id": "atralia-matchalatte",
@@ -1602,7 +1605,8 @@ const products = [
     "price": 3.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-calvinklein-eternityformen.webp"
   },
   {
     "id": "carolinaherrera-212men",
@@ -1688,7 +1692,8 @@ const products = [
     "price": 6.0,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-carolinaherrera-chmen.webp"
   },
   {
     "id": "carolinaherrera-goodgirlblush",
@@ -2747,7 +2752,8 @@ const products = [
     "price": 4.0,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-ferragamo-salvatoreferragamopourhomme.webp"
   },
   {
     "id": "flavia-limpression",
@@ -3371,7 +3377,8 @@ const products = [
     "price": null,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-gucci-guiltypourhomme.webp"
   },
   {
     "id": "gucci-pourhomme",
@@ -3671,7 +3678,8 @@ const products = [
     "price": 7.5,
     "category": "unisex",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-jomilano-bonus.webp"
   },
   {
     "id": "jomilano-emerald",
@@ -3796,7 +3804,8 @@ const products = [
     "price": 7.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-jomilano-nolimit.webp"
   },
   {
     "id": "jomilano-opal",
@@ -5173,7 +5182,8 @@ const products = [
     "price": 4.0,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-lattafa-sehr.webp"
   },
   {
     "id": "lattafa-yara",
@@ -6443,7 +6453,8 @@ const products = [
     "price": 8.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-mfk-apom.webp"
   },
   {
     "id": "mfk-gentlefluiditysilver",
@@ -7379,7 +7390,8 @@ const products = [
     "price": 5.5,
     "category": "men",
     "mood": "woody",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-nicolemiller-nicolemillerformen.webp"
   },
   {
     "id": "nishane-wulongcha",
@@ -8496,7 +8508,8 @@ const products = [
     "price": 3.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-salvatoreferragamo-salvatoreferragamo.webp"
   },
   {
     "id": "scentologia-syncherry",
@@ -8854,7 +8867,8 @@ const products = [
     "price": 6.5,
     "category": "men",
     "mood": "floral",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-superz-khamzatthewolf.webp"
   },
   {
     "id": "swissarabian-shaghafoudtonka",
@@ -9247,7 +9261,8 @@ const products = [
     "price": 6.5,
     "category": "men",
     "mood": "fresh",
-    "tag": "YNOTDECANTS"
+    "tag": "YNOTDECANTS",
+    "image": "assets/product-valentino-valentinouomoborninromaintense.webp"
   },
   {
     "id": "valentino-valentinouomointense",

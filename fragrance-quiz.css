@@ -11,6 +11,7 @@
 .scent-question-heading>p:last-child{font-size:15px;line-height:1.85;color:#bfb1a6;max-width:620px;margin:22px auto 0}
 .scent-choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;padding:0;margin:0;border:0}
 .scent-choices-visual{grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.scent-choices-three{grid-template-columns:repeat(3,minmax(0,1fr))}
 .scent-choice{display:flex;flex-direction:column;position:relative;min-width:0;min-height:165px;padding:25px;border:1px solid #ffffff1b;border-radius:20px;background:#151210;cursor:pointer;transition:border-color .2s,background .2s;overflow:hidden}
 .scent-choice:hover{border-color:#b37c58;background:#1b1511}
 .scent-choice.is-selected{border-color:#dc9f73;background:#261a12;box-shadow:inset 0 0 0 1px #dc9f73}
@@ -23,7 +24,7 @@
 .scent-choice-copy>span{display:block;font-size:13px;color:#b8a89b;line-height:1.7;margin-top:9px}
 .scent-choices-visual .scent-choice{padding:0;min-height:330px}
 .scent-choice img{width:100%;height:230px;object-fit:cover;object-position:center 40%;background:#100e0d}
-.scent-choices-visual .scent-choice-copy{padding:22px 20px 24px}
+.scent-choices-visual .scent-choice-copy{padding:22px 20px 24px;margin-top:0}
 .scent-choices-visual .scent-choice-copy strong{font-size:18px}
 .scent-choices-visual .scent-choice-copy>span{font-size:12px}
 .scent-choice-feedback{min-height:24px;font-size:12px;color:#d2a384;text-align:center;margin-top:18px}
@@ -58,5 +59,11 @@
 @media(max-width:600px){.fragrance-quiz-main{padding:138px 22px 60px}.scent-quiz-top{font-size:8px;letter-spacing:.7px;gap:10px}.scent-quiz-exit{font-size:11px}.scent-question-heading{margin:34px auto 28px}.scent-question-heading .eyebrow{font-size:9px}.scent-question-heading>p:last-child{font-size:14px;margin-top:18px}.scent-choices{gap:12px}.scent-choice{padding:22px 17px;min-height:165px;border-radius:16px}.scent-choice-copy strong{font-size:17px}.scent-choice-copy>span{font-size:12px}.scent-choice-check{width:20px;height:20px;right:12px;top:12px;font-size:11px}.scent-choice img{height:165px}.scent-choices-visual .scent-choice{min-height:280px}.scent-choices-visual .scent-choice-copy{padding:17px 14px}.scent-choices-visual .scent-choice-copy strong{font-size:16px}.scent-choices-visual .scent-choice-copy>span{font-size:11px}.scent-quiz-actions{gap:12px;flex-wrap:wrap;margin-top:18px}.scent-quiz-actions .text-link{font-size:12px}#scent-quiz-step{font-size:8px}#scent-quiz-next{min-width:145px;font-size:12px;padding:12px 17px;min-height:46px}.scent-quiz-footnote{font-size:10px;line-height:1.8}.scent-match-grid{grid-template-columns:1fr;max-width:380px;margin:auto;gap:24px}.scent-match-art img{height:330px}.scent-match-copy{padding:26px}.scent-result-actions{flex-direction:column;gap:16px}}
 @media(prefers-reduced-motion:reduce){.scent-quiz-progress>span,.scent-choice{transition:none}}
 
-.scent-choices:not(.scent-choices-visual) .scent-choice{justify-content:center}
-.scent-choices:not(.scent-choices-visual) .scent-choice-copy{margin-top:0}
+@media(min-width:601px) and (max-width:900px){.scent-choices-three{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:600px){
+  .scent-choices-visual{grid-template-columns:minmax(0,1fr)}
+  .scent-choices-visual .scent-choice{display:grid;grid-template-columns:clamp(76px,23vw,120px) minmax(0,1fr);align-items:center;min-height:98px}
+  .scent-choice img{height:100%;min-height:98px;position:absolute;inset:0 auto 0 0;width:clamp(76px,23vw,120px)}
+  .scent-choices-visual .scent-choice-copy{grid-column:2;padding:16px 39px 16px 15px}
+  .scent-choice-check{top:50%;transform:translateY(-50%)}
+}
